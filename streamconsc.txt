@@ -1,0 +1,24 @@
+0	*	_	0
+
+
+bool	[bool] -> avg -> sigm -> bool -> ...
+
+
+inputs = [num_nodes]
+
+dendrite = [num_layers][num_neurons][num_nodes]
+
+for (layer in dendrite) {
+	for (neuron in layer) {
+		
+	}
+}
+
+for (layerI=0; layerI < num_layers; layerI++) {
+	layer = dendrite[layerI]
+
+	for (neuronI=0; neuronI < num_neuronIs; neuronI++) {
+		neuron = layer[neuronI]
+
+	}
+}
